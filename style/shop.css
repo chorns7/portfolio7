@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Roboto';
+  src:format(Roboto);
+}
+
+
+.wrapper {
+
+  position: relative;
+  height: auto;
+  padding-top: 100px;
+}
+
+.box {
+  max-width: 70%;
+  min-height: auto;
+  margin: 0 auto;
+  padding: 1em 1em;
+  text-align: center;
+ 
+
+
+
+h1 {
+  margin: 0 0 1rem 0;
+  font-size: 8em;
+  color: grey;
+}
+
+p {
+  margin-bottom: 0.5em;
+  font-size: 3em;
+  color: grey;
+}
+
+p:first-of-type { margin-top: 4em; }
+
+p > a {
+  border-bottom: 1px dashed white;
+  font-style: italic;
+  text-decoration: none;
+  color: grey;
+}
+
+p > a:hover { text-shadow: 0 0 6px white; }
+
+p img { vertical-align: bottom; }
+}

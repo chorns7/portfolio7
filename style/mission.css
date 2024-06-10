@@ -1,0 +1,45 @@
+.contieniti{
+    height: 70vh;
+
+
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    place-items: center;
+    
+  }
+  
+  .digitare {
+    
+    width: 100%;
+    margin: 50px;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow:hidden;
+
+    color: grey;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    
+    .contieniti {
+      width: 100%;
+    }
+  }
